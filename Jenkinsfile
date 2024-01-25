@@ -55,11 +55,13 @@ stage('prod deployment'){
 }  
 }
 
-stage {
+stage ('email'){
+    steps{
 
 always {
         emailext body: 'pipeline', subject: 'mailindication', to: 'vamsikrishnachintada99@gmail.com'
 } 
+}
 }
 }
 }
