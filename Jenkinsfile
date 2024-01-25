@@ -60,6 +60,6 @@ post {
 always {
         emailext body: 'pipeline', subject: 'mailindication', to: 'vamsikrishnachintada99@gmail.com'
 } 
-
+}
 }
 }
